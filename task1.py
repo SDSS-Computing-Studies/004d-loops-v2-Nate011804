@@ -17,3 +17,11 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+a = input("number:")
+a = int(a)
+
+for counter in range(1,13):
+    b = (a * counter)
+    b = str(b)
+    print(b + " ", end="")
